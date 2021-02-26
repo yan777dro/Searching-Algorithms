@@ -2,7 +2,7 @@
 
 
 /**For large arrays, binary search is ideal.
- * However, binary search can only be implemented on sorted arrays**/
+ * However, in order to implement binary search, our array must be sorted**/
 
 
  function linearSearch(arr, key){
