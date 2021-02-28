@@ -4,12 +4,12 @@
 
 function BinarySearch(arr, key){
 
-    start = 0;
-    end = arr.length -1;
+    let start = 0;
+    let end = arr.length -1;
 
     while(start <= end){ // while our start is less than the end, we have a middle
 
-        const middle = Math.floor((left + end) / 2);  
+        const middle = Math.floor((start + end) / 2);  
 
         if(arr[middle] === key) return middle;  
     //if our value is found in the middle, return the middle
