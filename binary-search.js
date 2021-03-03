@@ -16,8 +16,8 @@ function BinarySearch(arr, key){
 
         if(arr[middle] > key ) end = middle -1; 
         else start = middle + 1;
-    /**if the middle is greater than our value, we ignore all the values from the start to the middle,
-     and begin our search from the end. Otherwise, if our middle is less than the value, we ignore everything from the middle to the 
+    /**if the  value in the middle is greater than key, we ignore all the values from the start to the middle,
+     and begin our search from the end. Otherwise, if the value in the middle is less than key, we ignore everything from the middle to the 
      end and begin our search from the start towards the midde.**/
 
     }
