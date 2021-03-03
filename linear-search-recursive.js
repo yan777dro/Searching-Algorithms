@@ -7,7 +7,7 @@ function linearSearch(arr, element, val){
 
     if(arr[element] === val) return i;  //if our value is found
 
-    linearSearch(arr, element-1, val); // recursive call back
+    return linearSearch(arr, element-1, val); // recursive call back
 
 
 }
