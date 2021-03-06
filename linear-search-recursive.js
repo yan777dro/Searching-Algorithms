@@ -1,5 +1,5 @@
 // linear search recursive 
-//time complexity O(n)
+
 
 function linearSearch(arr, i, val){
 
