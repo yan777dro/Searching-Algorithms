@@ -1,5 +1,5 @@
 //binary search recursive solution
-//time complexity O(log n)
+
 
 function binarySearch(arr, val, start, end){
 
