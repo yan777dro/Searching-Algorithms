@@ -1,4 +1,5 @@
 // linear search recursive 
+//time complexity O(n)
 
 
 function linearSearch(arr, i, val){
@@ -7,7 +8,7 @@ function linearSearch(arr, i, val){
 
     if(arr[i] === val) return i;  //if our value is found
 
-    return linearSearch(arr, i-1, val); // recursive call back
+    return linearSearch(arr, i-1, val); // recursive call back.  Iterate from the end
 
 
 }
