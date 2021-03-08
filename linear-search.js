@@ -7,8 +7,8 @@
 
  function linearSearch(arr, key){
 
-    for(let item of arr){
-        if(arr[item] === key) return item;
+    for(let i =0; i < arr.length; i++){
+        if(arr[i] === key) return i;
     }
 
     return -1
